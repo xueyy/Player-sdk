@@ -14,7 +14,7 @@ function loadscript(type) {
     } else if (type === 'lecheng') {
         var oScript = document.createElement("script");
         oScript.type = 'application/javascript';
-        oScript.src = "./imouplayer.js"
+        oScript.src = "https://cdn.jsdelivr.net/gh/xueyy/Player-sdk@master/PlayerInitor.js"
         document.body.appendChild(oScript);
     }
 }
