@@ -1,6 +1,6 @@
 {
   "name": "yz-player-sdk",
-  "version": "0.4.28",
+  "version": "0.4.27",
   "description": "影子直播播放器H5 sdk",
   "main": "index.js",
   "scripts": {
