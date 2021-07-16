@@ -159,7 +159,7 @@ var WorkerManager = function () {
         init: function (a, b) {
             zb = 0, S = a, db = b;
             window.navigator.userAgent;
-            l = new Worker("./static/videoWorker.js"), m = new Worker("./static/audioWorker.js"), l.onmessage = d, m.onmessage = e, p = new StreamDrawer(zb, this, S), H = IvsDraw(), p.setResizeCallback(s), xb = document.getElementById("count-fps"), wb = document.getElementById("span-fps")
+            l = new Worker("./static/videoWorker.js"), m = new Worker("https://cdn.jsdelivr.net/gh/xueyy/Player-sdk@master/static/audioWorker.js"), l.onmessage = d, m.onmessage = e, p = new StreamDrawer(zb, this, S), H = IvsDraw(), p.setResizeCallback(s), xb = document.getElementById("count-fps"), wb = document.getElementById("span-fps")
         }, sendSdpInfo: function (a, b, c) {
             var d = {type: "sdpInfo", data: {sdpInfo: a, aacCodecInfo: b, decodeMode: P, govLength: M, checkDelay: Q}};
             if (N = c, l.postMessage(d), m.postMessage(d), N) try {
