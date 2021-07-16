@@ -59,7 +59,7 @@
     var ckplayerJS = Domain + '/sdk/js/1.4/ckplayer/ckplayer.js';
     var ckplayerSWF = Domain + '/sdk/js/1.4/ckplayer/ckplayer.swf';
     var m3u8SWF = Domain + '/sdk/js/1.4/ckplayer/m3u8.swf';
-    var hlsJS = Domain + '/sdk/js/1.4/hls.min.js';
+    var hlsJS = 'https://cdn.jsdelivr.net/gh/xueyy/Player-sdk@master/hls.min.js';
   
     // 当前页面是否是https协议
     var isHttps = window.location.protocol === 'https:' ? true : false;
