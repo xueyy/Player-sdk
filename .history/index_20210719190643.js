@@ -9,7 +9,7 @@ const init = (params) => {
 function loadscript(type) {
     if (type === 'haikang') {
         var oScript = document.createElement("script");
-        oScript.src = "https://cdn.jsdelivr.net/gh/xueyy/Player-sdk@master/hkplayer.js";
+        oScript.src = "hkplayer";
         document.body.appendChild(oScript);
     } else if (type === 'lecheng') {
         var oScript = document.createElement("script");
