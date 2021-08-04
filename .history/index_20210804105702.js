@@ -25,7 +25,7 @@ function createDOM(params) {
         url, // 地址
         container, // 容器
         kitToken,
-        autoplay
+        aotuplay
     } = params
     const videocontainer = document.getElementById(container)
     if (type === 'haikang') {
@@ -47,7 +47,7 @@ function createDOM(params) {
                     kitToken: kitToken, // 播放Token，通过接口getKitToken获取，具体请见：2.2.4 getKitToken接口协议说明
                 }],
                 width: '100%',
-                autoplay,
+                autoplay: true,
                 controls: true
             };
             console.log('params', params)
