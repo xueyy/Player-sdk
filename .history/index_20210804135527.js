@@ -34,7 +34,6 @@ function createDOM(params) {
         video.src = url;
         video.style.width = '100%'
         video.controls = 'controls'
-        video.muted = true
         videocontainer.appendChild(video);
         setTimeout(() => {
             new globalThis.EZUIPlayer('haikangplayer')
